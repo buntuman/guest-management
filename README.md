@@ -19,4 +19,6 @@
 
 **Guest Checkout**
 
-**`PATCH`** `/api/guest/:id`
+**`PATCH`** `/api/guest`
+	params
+		id
