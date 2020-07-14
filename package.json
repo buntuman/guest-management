@@ -1,0 +1,28 @@
+{
+  "name": "guest-chekin",
+  "version": "1.0.0",
+  "description": "Application where guests can check in and out",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devRun": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buntuman/guest-management.git"
+  },
+  "author": "Daniel Gitahi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buntuman/guest-management/issues"
+  },
+  "homepage": "https://github.com/buntuman/guest-management#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
