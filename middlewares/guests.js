@@ -29,7 +29,7 @@ router.get('/:firstname/:lastname',async (req,res)=>{
 });
 
 
-//update get info by id
+//update get checkIn by id
 router.patch('/',async (req,res)=>{
     const guestId = req.body.id;
     const checkedIn = req.body.checkedIn;
